@@ -1,0 +1,56 @@
+{
+  "name": "n8n-texau",
+  "version": "0.1.0",
+  "description": "Texau Api Node",
+  "keywords": [
+    "n8n-texau-automation-package"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "author": {
+    "name": "hichem zahaf",
+    "email": "hicham@odooerp.ae"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n8n-io/n8n-nodes-starter.git"
+  },
+  "engines": {
+    "node": ">=18.10",
+    "pnpm": ">=9.1"
+  },
+  "packageManager": "pnpm@9.1.4",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && gulp build:icons",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials package.json",
+    "lintfix": "eslint nodes credentials package.json --fix",
+    "prepublishOnly": "pnpm build && pnpm lint -c .eslintrc.prepublish.js nodes credentials package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/texauapiApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Texau/Texau.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^7.15.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-n8n-nodes-base": "^1.16.1",
+    "gulp": "^5.0.0",
+    "n8n-workflow": "^1.48.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

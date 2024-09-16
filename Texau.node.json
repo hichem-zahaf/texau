@@ -1,0 +1,20 @@
+{
+	"node": "n8n-texau-base.Texau",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Productivity"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://documenter.getpostman.com/view/5770396/T17DhpSq"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://documenter.getpostman.com/view/5770396/T17DhpSq"
+			}
+		]
+	}
+}
