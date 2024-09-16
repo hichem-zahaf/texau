@@ -1,8 +1,8 @@
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
-# n8n-nodes-starter
+# n8n Texau Node
 
-This repo contains example nodes to help you get started building your own custom integrations for [n8n](n8n.io). It includes the node linter and other dependencies.
+This repository contains the custom node integration for TexAu API for n8n. It allows you to automate and integrate TexAu workflows directly into n8n with ease. The node supports a wide range of operations from the TexAu API
 
 To make your custom node available to the community, you must create it as an npm package, and [submit it to the npm registry](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry).
 
@@ -38,9 +38,9 @@ These are the basic steps for working with the starter. For detailed guidance on
 11. [Publish](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry) your package to npm.
 
 ## More information
-
+Refer to the [official TexAu API documentation](https://texau.gitbook.io/api-docs/reference/api-reference) for details on the API operations, parameters, and responses you can use in your node.
 Refer to our [documentation on creating nodes](https://docs.n8n.io/integrations/creating-nodes/) for detailed information on building your own nodes.
 
 ## License
 
-[MIT](https://github.com/n8n-io/n8n-nodes-starter/blob/master/LICENSE.md)
+This project is licensed under the [MIT](https://github.com/n8n-io/n8n-nodes-starter/blob/master/LICENSE.md)
